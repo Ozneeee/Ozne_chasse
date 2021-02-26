@@ -14,8 +14,6 @@ Add item.sql into your php
 
 ``start Ozne_chasse``
 
-My shop online : https://sites.google.com/view/ozne-developpement
-
 Twitch : https://www.twitch.tv/ozneeee
 
 ------------------------------------------------
