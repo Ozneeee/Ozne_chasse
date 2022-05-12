@@ -11,12 +11,12 @@ RegisterServerEvent('Ozne_chasse:reward')
 AddEventHandler('Ozne_chasse:reward', function(Weight)
     local xPlayer = ESX.GetPlayerFromId(source)
 
-    if Weight >= 1 then
-        xPlayer.addInventoryItem('meat_a', 1)
+    if Weight >= 15 then
+        xPlayer.addInventoryItem('meat_a', 3)
     elseif Weight >= 9 then
         xPlayer.addInventoryItem('meat_a', 2)
-    elseif Weight >= 15 then
-        xPlayer.addInventoryItem('meat_a', 3)
+    elseif Weight >= 1 then
+        xPlayer.addInventoryItem('meat_a', 1)
     end
 
     xPlayer.addInventoryItem('leather_a', math.random(0, 1))
